@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://c1ohtfm62ke8r"]
+
+[ext_resource type="Script" uid="uid://tfeclthtop1q" path="res://player.gd" id="1_lrkw7"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Player" type="Node2D" parent="."]
+position = Vector2(191, 303)
+script = ExtResource("1_lrkw7")
+drag_power = 2.0
+
+[node name="ColorRect" type="ColorRect" parent="Player"]
+offset_right = 25.0
+offset_bottom = 25.0
