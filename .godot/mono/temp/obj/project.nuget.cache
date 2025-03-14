@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "JJK7RaBo4Y8=",
+  "success": true,
+  "projectFilePath": "/Users/yotamfrid/godot/roguelike-runner/roguelike-runner.csproj",
+  "expectedPackageFiles": [
+    "/Users/yotamfrid/.nuget/packages/godot.sourcegenerators/4.4.0/godot.sourcegenerators.4.4.0.nupkg.sha512",
+    "/Users/yotamfrid/.nuget/packages/godotsharp/4.4.0/godotsharp.4.4.0.nupkg.sha512",
+    "/Users/yotamfrid/.nuget/packages/godotsharpeditor/4.4.0/godotsharpeditor.4.4.0.nupkg.sha512",
+    "/Users/yotamfrid/.nuget/packages/microsoft.netcore.app.ref/8.0.12/microsoft.netcore.app.ref.8.0.12.nupkg.sha512",
+    "/Users/yotamfrid/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.12/microsoft.aspnetcore.app.ref.8.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
