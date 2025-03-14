@@ -1,0 +1,49 @@
+# Godot 4+ specific ignores
+.godot/
+
+# Godot-specific ignores
+.import/
+export.cfg
+export_presets.cfg
+
+# Imported translations (automatically generated from CSV files)
+*.translation
+
+# Mono-specific ignores
+.mono/
+data_*/
+mono_crash.*.json
+
+# Build directories
+builds/
+web-export/
+*.apk
+*.aar
+*.aab
+*.pck
+*.exe
+
+# OS-specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Log files
+*.log
+
+# Custom backup files
+*.bak
+*~
+
+# Project-specific (add your own if needed)
+# Add custom project files that shouldn't be tracked below
