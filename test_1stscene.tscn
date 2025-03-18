@@ -1,14 +1,13 @@
-[gd_scene load_steps=2 format=3 uid="uid://c1ohtfm62ke8r"]
+[gd_scene load_steps=3 format=3 uid="uid://c1ohtfm62ke8r"]
 
-[ext_resource type="Script" uid="uid://tfeclthtop1q" path="res://player.gd" id="1_lrkw7"]
+[ext_resource type="PackedScene" uid="uid://b8t72183077w5" path="res://player/player.tscn" id="1_lrkw7"]
+[ext_resource type="Script" uid="uid://cedi6krjiiijl" path="res://joystick_controller.gd" id="1_r8xjo"]
 
 [node name="Node2D" type="Node2D"]
 
-[node name="Player" type="Node2D" parent="."]
-position = Vector2(191, 303)
-script = ExtResource("1_lrkw7")
-drag_power = 2.0
+[node name="JoystickController" type="Node2D" parent="."]
+script = ExtResource("1_r8xjo")
 
-[node name="ColorRect" type="ColorRect" parent="Player"]
-offset_right = 25.0
-offset_bottom = 25.0
+[node name="Player" parent="." node_paths=PackedStringArray("joystick") instance=ExtResource("1_lrkw7")]
+position = Vector2(82, 102)
+joystick = NodePath("../JoystickController")
